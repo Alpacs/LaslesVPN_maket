@@ -266,60 +266,6 @@ li {
     color: #4F5665;
 }
 
-@media (max-width: 769px) {
-    #page_2_container {
-        margin-top: 0;
-    }
-    .main_page_footer {
-        margin-top: 375px;
-    }
-    .text_footer_main {
-        margin-left: 0;
-    }
-    .footer_slot_1 div {
-        margin-left: 23.44px;
-    }
-    .footer_slot_2 div {
-        margin-left: 8px;
-    }
-    .footer_slot_3 div {
-        margin-left: 6.87px;
-    }
-    .text_footer_main h1 {
-        margin-top: 0;
-    }
-    .features {
-        margin-top: 275px;
-    }
-    #page_2_container {
-        display: block;
-    }
-    #page_2_container>img {
-        margin-top: 275px;
-        margin-left: 114px;
-    }
-    .page_2_text {
-        margin-left: 90px;
-    }
-    .page_2_text br {
-        display: none;
-    }
-    .page_2_text span {
-        display: block;
-    }
-    .page_2_text h1 {
-        font-weight: 500;
-        font-size: 35px;
-    }
-    .page_2_text h2 {
-        font-size: 16px;
-        color: #4F5665;
-    }
-    .list_of_benefits {
-        margin-top: 0px;
-    }
-}
-
 
 /*3 page*/
 
@@ -1011,6 +957,7 @@ h2 {
         height: 1024px;
         width: 100%;
         background-size: 100%;
+        background-repeat: no-repeat;
     }
     .main_page_text h1 {
         font-size: 50px;
@@ -1203,5 +1150,56 @@ h2 {
     }
     .avatar_and_grade h2 {
         margin-left: 49px;
+    }
+    #page_2_container {
+        margin-top: 0;
+    }
+    .main_page_footer {
+        margin-top: 375px;
+    }
+    .text_footer_main {
+        margin-left: 0;
+    }
+    .footer_slot_1 div {
+        margin-left: 23.44px;
+    }
+    .footer_slot_2 div {
+        margin-left: 8px;
+    }
+    .footer_slot_3 div {
+        margin-left: 6.87px;
+    }
+    .text_footer_main h1 {
+        margin-top: 0;
+    }
+    .features {
+        margin-top: 275px;
+    }
+    #page_2_container {
+        display: block;
+    }
+    #page_2_container>img {
+        margin-top: 275px;
+        margin-left: 114px;
+    }
+    .page_2_text {
+        margin-left: 90px;
+    }
+    .page_2_text br {
+        display: none;
+    }
+    .page_2_text span {
+        display: block;
+    }
+    .page_2_text h1 {
+        font-weight: 500;
+        font-size: 35px;
+    }
+    .page_2_text h2 {
+        font-size: 16px;
+        color: #4F5665;
+    }
+    .list_of_benefits {
+        margin-top: 0px;
     }
 }
